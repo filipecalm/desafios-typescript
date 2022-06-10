@@ -61,11 +61,7 @@ function preencherApi() {
 }
 
 function validateLoginButton() {
-  if (password && username && apiKey) {
-    (loginButton as HTMLInputElement).disabled = false;
-  } else {
-    (loginButton as HTMLInputElement).disabled = true;
-  }
+    password && username && apiKey ? (loginButton as HTMLInputElement).disabled = false : (loginButton as HTMLInputElement).disabled = true;
 }
 
 class HttpClient {
