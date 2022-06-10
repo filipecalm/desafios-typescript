@@ -11,7 +11,7 @@
 // É necessário fazer um cadastro no https://www.themoviedb.org/ e seguir a documentação do site para entender como gera uma API key https://developers.themoviedb.org/3/getting-started/introduction
 
 let apiKey: string;
-let requestToken: string = 'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI3ZDU3OWI1YmE0YTFmMTE1YzVhMjAyN2IxYWVlYTg2ZiIsInN1YiI6IjYyYTJiOTQ5N2Y2YzhkMDA2NTIyZmM5NiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.4jEjbQOa54LqVuof3PtDJW6bQj0vLVoqO6VdUIcQWrE';
+let requestToken: string;
 let username: string;
 let password: string;
 let sessionId: string;
